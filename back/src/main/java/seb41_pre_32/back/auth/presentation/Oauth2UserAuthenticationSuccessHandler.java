@@ -7,7 +7,6 @@ import org.springframework.security.web.authentication.SimpleUrlAuthenticationSu
 import org.springframework.stereotype.Component;
 import org.springframework.web.util.UriComponentsBuilder;
 import seb41_pre_32.back.auth.service.RefreshTokenService;
-import seb41_pre_32.back.auth.utils.CustomAuthorityUtils;
 import seb41_pre_32.back.auth.utils.JwtTokenizer;
 import seb41_pre_32.back.user.entity.User;
 import seb41_pre_32.back.user.service.UserService;
