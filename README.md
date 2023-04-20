@@ -29,7 +29,7 @@
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |[김응열](https://github.com/Valentin1495)|[배성진](https://github.com/Menat91)|[조강열](https://github.com/CHOGANGYEOL)|[이소정](https://github.com/sojeongLee0125 )|[조혜주](https://github.com/hyejuc)|[최윤정](https://github.com/yulmuu)|
  
-## 5. 주요 기능
+## 4. 주요 기능
 
 ### 1) User
 - 회원가입 및 로그인 유효성 검사 (Spring Security 적용) 
@@ -48,7 +48,7 @@
 - 특정한 질문에 대한 답변 생성 / 수정 / 삭제
 - 답변 Like / DisLike 기능
 
-## 6. Project Rules
+## 5. Project Rules
 
 ### 1) 매일 Pm 05:00 일일 스크럼 회의 참석하기
 - 현재 진행상황 및 차후 계획 보고
@@ -69,7 +69,7 @@
 - 기능 구현이 완료되면 Main Branch PR 남기기
 - PR 후 Merge된 브랜치는 삭제하기
 
-## 7. 회고
+## 6. 회고
 - RefreshToken을 현재 메인 DB에 저장 및 관리 -> 캐시 서버를 활용하는 방식으로 전환해보기
 - N+1 문제를 방지하기 위한 FetchJoin 활용 -> 페이징 시 limit 없이 모든 데이터 메모리에 로드하는 문제
 - Fetch Join + 페이징 처리 시 발생하는 문제를 해결하는 방법 고민하기
